@@ -6,7 +6,7 @@
 }
 
 :root {
-    --primary-color: #01d28e;
+    --primary-color: #0174d2;
     --secondary-color: #1b4b6b;
     --text-color: #444;
     --light-gray: #f8f9fa;
@@ -473,13 +473,13 @@ html {
 }
 
 /* Improve Link Hover Effects */
-.nav-links li a,
+.nav-links li a ,
 .footer-col a,
 .auth-links a {
     position: relative;
 }
 
-.nav-links li a::after,
+.nav-links li a:not(.appointment-btn):after,
 .footer-col a::after,
 .auth-links a::after {
     content: '';
